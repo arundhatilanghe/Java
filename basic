@@ -1,0 +1,301 @@
+// public class first {
+//     public static void main(String[] args) {
+//         System.out.println("Hello World!");
+//     }
+// }
+
+// public class first { 
+//     public static void main(String[] args) {
+//         String name = "Arundhati";
+//         System.out.println(name); 
+//     }
+// }
+
+// public class first {
+//     public static void main(String[] args) {
+//         int age = 22;
+//         System.out.println(age);
+//     }
+// }
+
+// public class first {
+//     public static void main(String[] args) {
+//         String name = "Arundhati";
+//         System.out.println("Hello " + name);
+//     }
+// }
+
+// public class first {
+//     public static void main(String[] args){
+//         String firstName = "Arundhati ";
+//         String lastName = "Langhe";
+//         String fullName = firstName + lastName;
+        
+//         System.out.println(fullName);
+//     }
+// }
+
+// public class first {
+//     public static void main(String[] args) {
+
+//         int age = 22;
+//         double myDouble = age;
+
+//         System.out.println(age);
+//         System.out.println(myDouble);
+//     }
+// }
+
+// public class first {
+//     public static void main(String[] args) {
+
+//         double myDouble = 9.987f;
+//         int age = (int) myDouble;
+
+//         System.out.println(myDouble);
+//         System.out.println(age);
+//     }
+// }
+
+// public class first {
+//     public static void main(String[] args) {
+//         String firstName = "Arundhati ";
+//         String lastName = "Langhe";
+//         System.out.println(firstName.concat(lastName));
+//     }
+// }
+
+// public class first {
+//     public static void main(String[] args) {
+//         int time = 20;
+//         String result = (time<18) ? "Good Day" : "Good Afternoon";
+//         System.out.println(result);
+//     }
+// }
+
+// public class first {
+//     public static void main(String[] args) {
+//         int i = 0;
+//         while (i < 5){
+//         System.out.println(i);
+//         i++;
+//         }
+//     }
+// }
+
+// public class first {
+//     public static void main(String[] args) {
+//         int i = 0;
+//         do{
+//             System.out.println(i);
+//             i++;
+//         }
+//         while(i<5);
+//     }
+// }
+
+// public class first {
+//     public static void main (String[] args) {
+//         for (int i=0; i<5; i++){
+//             System.out.println(i);
+//         }
+//     }
+// } 
+
+// public class first {
+//     public static void main(String[]args) {
+//         String[] langs = {"python", "java", "javascript"};
+//         for(String i : langs) {
+//             System.out.println(i);
+//         }
+//     }
+// }
+
+// public class first {
+//     public static void main (String[] args) {
+//         int num = 2;
+//         for(int i=1; i<=10; i++) {
+//             System.out.println(num + "x" + i + "=" + (num*i));
+//         }
+//     }
+// }
+
+// public class first {
+//     static void myMethod() {
+//         System.out.println("Arundhati");
+//     }
+//     public static void main(String[]args){
+//         myMethod();
+//     }
+// }
+
+// public class first {
+//     static void myMethod(String fname) {
+//         System.out.println(fname + " Techie");
+//     }
+
+//     public static void main(String[] args) {
+//         myMethod("Arundhati");
+//         myMethod("Sora");
+//         myMethod("Sofia");
+//     }
+// }
+
+// public class first {
+//     static void myMethod(String fname, int age) {
+//         System.out.println(fname + " is " + age);
+//     }
+//     public static void main(String[] args) {
+//         myMethod("Arundhati", 22);
+//         myMethod("Jungkook", 26);
+//         myMethod("Modi", 72);
+//     }
+// }
+
+// public class first {
+//     static void checkAge(int age) {
+//         if(age > 18) {
+//             System.out.println("Adult");
+//         }
+//         else {
+//             System.out.println("Minor");
+//         }
+//     }
+//     public static void main (String[] args) {
+//         checkAge(16);
+//     }
+//     }
+
+// public class first {
+//     static int myMethod(int x) {
+//         return 5 + x;
+//     }
+//     public static void main(String[] args) {
+//         System.out.println(myMethod(2));
+//     }
+// }
+
+// public class first {
+//     static int myMethod(int x, int y) {
+//         return x+y;
+//     }
+//     public static void main(String[] args)  {
+//         System.out.println(myMethod(8, 2));
+//     }
+// }
+
+// public class first {
+//     static int myMethod(int x, int y) {
+//         return x + y;
+//     }
+//     public static void main(String[]args) {
+//         int z = myMethod(5, 3);
+//         System.out.println(z);
+//     }
+// }
+
+// public class first {
+//     static int plusMethodInt(int x, int y){
+//     return x+y;
+//     }
+
+//     static double plusMethodDouble(double x, double y) {
+//         return x+y;
+//     }
+
+//     public static void main(String[] args) {
+//         int num1 = plusMethodInt(2,4);
+//         double num2 = plusMethodDouble(6, 3);
+//         System.out.println(num1);
+//         System.out.println(num2);
+//     }
+// }
+
+// public class first {
+//     static int plusMethod(int x, int y) {
+//         return x + y;
+//     }
+//     static double plusMethod(double x, double y){
+//         return x+y;
+//     }
+
+//     public static void main(String[] args) {
+//         int num1 = plusMethod(2, 6);
+//         double num2 = plusMethod(3.8576, 6.837);
+//         System.out.println("int : " + num1);
+//         System.out.println("double : " + num2);
+//     }
+// }
+
+// public class first {
+//     public static int sum(int k) {
+//         if (k > 0) {
+//             return k + sum(k - 1);
+//         }
+//         else {
+//             return 0;
+//         }
+//     }
+//     public static void main (String [] args) {
+//         int result = sum(10);
+//         System.out.println(result);
+//     }
+// }
+
+// public class first {
+//     public static int sum(int start, int end) {
+//         if (end > start) {
+//             return end + sum(start, end - 1);
+//         }
+//         else {
+//             return end;
+//         }
+//     }
+//     public static void main(String[] args) {
+//         int result = sum(5, 10);
+//         System.out.println(result);
+//     }
+// }
+
+// public class first {
+//     public static void main(String[] args) {
+//       int result = sum(5, 10);
+//       System.out.println(result);
+//     }
+//     public static int sum(int start, int end) {
+//       if (end > start) {
+//         return end + sum(start, end - 1);
+//       } else {
+//         return end;
+//       }
+//     }
+//   }
+
+// public class first {
+//     public static void printNumb(int n) {
+//         if (n==0) {
+//             return;
+//         }
+//         System.out.println(n);
+//         printNumb(n-1);
+//     }
+
+//     public static void main(String[] args) {
+//         int n = 5;
+//         printNumb(n);
+//     }
+// }
+
+// public class first {
+//     public static void printNumb(int n)  {
+//         if (n == 6) {
+//             return;
+//         }
+//         System.out.println(n);
+//         printNumb(n+1);
+//     }
+//     public static void main(String[] args) {
+//         int n = 1;
+//         printNumb(n);
+//     }
+// }
