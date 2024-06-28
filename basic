@@ -300,3 +300,67 @@ public class first {
     }
 }
 
+public class first {
+    public static void printSum(int i, int j, int sum) {
+        if(i == j) {
+            j += 1;
+            System.out.println(i);
+            return;
+        }
+        i += 1;
+        printSum(i+1, j, sum);
+    }
+    public static void main(String[] args) {
+        printSum(1, 5, 0);
+    }
+}
+
+public class first {
+    public static int calcFactorial(int n) {
+        if (n == 1 || n == 0) {
+            return 1;
+        }
+        int fact_nm1 = calcFactorial(n-1);
+        int  fact_n = n * fact_nm1;
+        return fact_n;
+    }
+
+    public static void main(String[] args) {
+        int n = 5;
+        int ans = calcFactorial(n);
+        System.out.println(ans);
+    }
+}
+
+public class first {
+    public static int Factorial(int n) {
+        if (n == 1 || n == 0) {
+            return 1;
+        }
+        else {
+            return n * Factorial(n - 1);
+        }
+    }
+    public static void main(String[] args) {
+        System.out.println(Factorial(5));
+    }
+}
+
+public class first {
+    public static void printPerm(String str, String perm, int idx) {
+        if (str.length() == 0) {
+            System.out.println(perm);
+            return;
+        }
+
+        for(int i = 0; i < str.length(); i++) {
+            char currChar = str.charAt(i);
+            String newStr = str.substring(0, i) + str.substring(i+1);
+            printPerm(newStr, perm + currChar, idx+1);
+        }
+    }
+    public static void main(String[] args) {
+        String str = "ABC";
+        printPerm(str, "", 0);
+    }
+}
